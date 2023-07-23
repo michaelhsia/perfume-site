@@ -1,3 +1,6 @@
+* {
+    outline: 1px solid red;
+  }
 body {
     line-height: 1.5;
 }
@@ -5,15 +8,13 @@ body {
 .container {
     max-width: 1110px;
     margin: 0 auto;
-    padding-left: 15px;
-    padding-right: 15px;
+    padding: 0 15px;
 }
 
 .logo {
     display: block;
     width: 128px;
     height: 38px;
-    background: url(../image/logo.png) center/cover;
     text-indent: 101%;
     overflow: hidden;
     white-space: nowrap;
@@ -32,6 +33,16 @@ body {
 
 .aic {
     align-items: center;
+}
+
+@media(max-width: 767px) {
+    .d-none {
+        display: none !important;
+    }
+
+    .d-block {
+        display: block !important;
+    }
 }
 
 
@@ -62,13 +73,6 @@ body {
 }
 
 
-/* margin */
-
-.mr-5 {
-    margin-right: 20px;
-}
-
-
 /* header */
 
 .header {
@@ -77,108 +81,24 @@ body {
 }
 
 .header h1 a {
-    display: block;
-    width: 128px;
-    height: 38px;
     background: url(../image/logo.png) center/cover;
-    text-indent: 101%;
-    overflow: hidden;
-    white-space: nowrap;
 }
 
 .menu {
     width: 41%;
 }
 
+@media(max-width: 767px) {
+    .menu {
+        width: 23%;
+    }
+}
+
 .menu li:last-child, .cart-num {
     display: none;
 }
 
-.menu li a {
-    text-decoration: none;
-}
-
-.menu li a:hover {
-    color: #AC8A46;
-}
-
-/* subscribe */
-
-
-.subscribe {
-    background: url(https://images.unsplash.com/photo-1532413992378-f169ac26fff0?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHx2aXN1YWwtc2VhcmNofDF8fHxlbnwwfHx8fHw%3D&auto=format&fit=crop&w=800&q=60) center/cover;
-    padding-top: 312px;
-    padding-bottom: 112px;
-}
-
-.subscribe p {
-    font-weight: Semibold;
-    margin-bottom: 20px;
-}
-
-.subscribe form {
-    width: 30%;
-}
-
-.subscribe form input:nth-child(1) {
-    padding: 21px 57px 20px 16px;
-    border: 2px solid #916000;
-    border-radius: 4px 0 0 4px;
-}
-
-.subscribe form input:nth-child(2) {
-    padding: 21px 26px 20px 27px;
-    background: #916000;
-    border: 2px solid #916000;
-    border-radius: 0 4px 4px 0;
-}
-
-
-/* footer */
-
-.footer{
-    background: #916000;
-    padding-top: 20px;
-    padding-bottom: 20px;
-}
-
-.footer-left h2 a{
-    background: url(../image/logo-wt.png) center/cover;
-}
-
-.footer-nav{
-    width: 24%;
-}
-
-.footer-nav a{
-    text-decoration: none;
-}
-
-.footer-nav a:hover{
-    color: #000000;
-}
-
-
 @media(max-width: 767px) {
-    .d-none {
-        display: none !important;
-    }
-
-    .d-block {
-        display: block !important;
-    }
-
-    /* rwd header */
-    
-    .menu {
-        width: 30%;
-        justify-content: flex-end;
-    }
-
-    .menu li:nth-child(4) {
-        margin-right: 20px;
-    }
-
     .cart {
         position: relative;
     }
@@ -198,32 +118,94 @@ body {
     .menu li a img {
         width: 30px;
     }
+}
 
-    
+.menu li a {
+    text-decoration: none;
+}
+
+.menu li a:hover {
+    color: #AC8A46;
+}
+
+
+/* subscribe */
+
+.subscribe {
+    background: url(https://images.unsplash.com/photo-1532413992378-f169ac26fff0?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHx2aXN1YWwtc2VhcmNofDF8fHxlbnwwfHx8fHw%3D&auto=format&fit=crop&w=800&q=60) center/cover;
+    padding-top: 312px;
+    padding-bottom: 112px;
+}
+
+.subscribe p {
+    font-weight: Semibold;
+    margin-bottom: 20px;
+}
+
+.subscribe form {
+    width: 30%;
+}
+@media (max-width: 767px) {
+    .subscribe form {
+        width: 100%;
+    }
+}
+
+.subscribe form input:nth-child(1) {
+    padding: 21px 57px 21px 16px;
+    border: 2px solid #916000;
+    border-radius: 4px 0 0 4px;
+}
+
+.subscribe form input:nth-child(2) {
+    padding: 21px 27px;
+    background: #916000;
+    border: 2px solid #916000;
+    border-radius: 0 4px 4px 0;
+}
+
+
+/* footer */
+
+.footer {
+    background: #916000;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.footer-left {
+    width: 31%;
+}
+
+@media(max-width: 767px) {
     .footer-left {
-        justify-content: space-between;
+        width: 100%;
     }
+}
 
-    .footer-left p {
-        width: 52%;
-    }
+.footer-left h2 a {
+    background: url(../image/logo-wt.png) center/cover;
+}
+
+.footer-nav {
+    width: 24%;
+}
+
+.footer-nav a {
+    text-decoration: none;
+}
+
+.footer-nav a:hover {
+    color: #000000;
 }
 
 
 
 
+    
+    
 
 
 
 
-
-
-
-
-
-
-
-
-
-
-
+    
