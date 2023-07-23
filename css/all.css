@@ -4,17 +4,100 @@ body{
 
 .container{
     max-width: 1110px;
-    margin: 0 auto; 
-    padding: 15px;
+    margin: 0 auto;
+    padding: 0 15px;
 }
+
+.d-flex{
+    display: flex;
+}
+
+.jcsb{
+    justify-content: space-between;
+}
+
+.aic{
+    align-items: center;
+}
+
+.fz-20{
+    font-size: 20px;
+}
+
+.ft-gr{
+    color: #8D8D8D;
+}
+
 /* header */
+
+.header{
+    padding: 9px 0;
+}
 
 .header h1 a{
     display: block;
     width: 128px;
     height: 38px;
-    background: url(image/logo.png);
+    background: url(../image/logo.png) center/cover;
     text-indent: 101%;
     overflow: hidden;
     white-space: nowrap;
+}
+
+.menu{
+    width: 41%;
+}
+
+.menu li a{
+    text-decoration: none;
+}
+
+.menu li a:hover{
+    color: #AC8A46;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* footer */
+
+.footer{
+    background: #916000;
+
 }
