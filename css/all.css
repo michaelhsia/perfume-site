@@ -5,7 +5,18 @@ body{
 .container{
     max-width: 1110px;
     margin: 0 auto;
-    padding: 0 15px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.logo{
+    display: block;
+    width: 128px;
+    height: 38px;
+    background: url(../image/logo.png) center/cover;
+    text-indent: 101%;
+    overflow: hidden;
+    white-space: nowrap;
 }
 
 .d-flex{
@@ -20,6 +31,10 @@ body{
     align-items: center;
 }
 
+.fz-14{
+    font-size: 14px;
+}
+
 .fz-20{
     font-size: 20px;
 }
@@ -28,10 +43,19 @@ body{
     color: #8D8D8D;
 }
 
+.ft-wt{
+    color: #FFFFFF;
+}
+
+.mr-5{
+    margin-right: 20px;
+}
+
 /* header */
 
 .header{
-    padding: 9px 0;
+    padding-top: 9px;
+    padding-bottom: 9px;
 }
 
 .header h1 a{
@@ -99,5 +123,21 @@ body{
 
 .footer{
     background: #916000;
+    padding: 20px 0;
+}
 
+.footer-left h2 a{
+    background: url(../image/logo-wt.png) center/cover;
+}
+
+.footer-nav{
+    width: 24%;
+}
+
+.footer-nav a{
+    text-decoration: none;
+}
+
+.footer-nav a:hover{
+    color: #000000;
 }
