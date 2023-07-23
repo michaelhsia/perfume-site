@@ -145,9 +145,18 @@ body {
 .subscribe form {
     width: 30%;
 }
+
 @media (max-width: 767px) {
     .subscribe form {
         width: 100%;
+    }
+
+    .subscribe form input:nth-child(1){
+        width: 70%;
+    }
+
+    .subscribe form input:nth-child(2){
+        width: 30%;
     }
 }
 
