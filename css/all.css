@@ -76,6 +76,10 @@ body{
     width: 41%;
 }
 
+.menu li:last-child{
+    display: none;
+}
+
 .menu li a{
     text-decoration: none;
 }
@@ -84,8 +88,34 @@ body{
     color: #AC8A46;
 }
 
-@media (max-width 767px)
+@media(max-width: 767px) {
+    .d-none{
+        display: none;
+    }
 
+    .menu{
+        width: 30%;
+        justify-content: flex-end;
+    }
+
+    .menu li:last-child{
+        display: block;
+    }
+
+    .menu li:nth-child(4){
+        margin-right: 40px;
+    }
+
+    .menu .bars{
+        display: block;
+        width: 36px;
+        height: 30px;
+        background: url(../image/bars.png) center/cover;
+        text-indent: 101%;
+        overflow: hidden;
+        white-space: nowrap;
+    }
+}
 
 
 
