@@ -1,6 +1,6 @@
-* {
+/* * {
     outline: 1px solid red;
-  }
+  } */
 body {
     line-height: 1.5;
 }
@@ -60,8 +60,20 @@ body {
     font-size: 20px;
 }
 
+.fz-24 {
+    font-size: 24px;
+}
+
+.fz-28 {
+    font-size: 28px;
+}
+
 .fz-32{
     font-size: 32px;
+}
+
+.fz-40{
+    font-size: 40px;
 }
 
 .ft-gr {
@@ -70,6 +82,10 @@ body {
 
 .ft-wt {
     color: #FFFFFF;
+}
+
+.mb-4{
+    margin-bottom: 16px;
 }
 
 
@@ -129,6 +145,37 @@ body {
 }
 
 
+/* banner */
+
+.banner{
+    background: url(https://images.unsplash.com/photo-1588159343745-445ae0b16383?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHx2aXN1YWwtc2VhcmNofDF8fHxlbnwwfHx8fHw%3D&auto=format&fit=crop&w=800&q=60) center/cover;
+    padding: 295px 0;
+}
+
+.banner-txt{
+    width: 40%;
+    margin-left: auto;
+}
+.banner-txt h2 {
+    font-weight: 700;
+}
+
+.banner-txt a{
+    width: 79%;
+    display: block;
+    text-align: center;
+    font-weight: 400;
+    text-decoration: none;
+    border: 2px solid #ffffff;
+    border-radius: 30px;
+    padding: 8px 0;
+}
+
+.banner-txt a:hover{
+    background: rgba(255, 255, 255, 0.2);
+}
+
+
 /* subscribe */
 
 .subscribe {
@@ -138,7 +185,7 @@ body {
 }
 
 .subscribe p {
-    font-weight: Semibold;
+    font-weight: 500;
     margin-bottom: 20px;
 }
 
