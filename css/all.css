@@ -35,7 +35,7 @@ body {
     align-items: center;
 }
 
-@media(max-width: 767px) {
+@media (max-width: 767px) {
     .d-none {
         display: none !important;
     }
@@ -68,11 +68,11 @@ body {
     font-size: 28px;
 }
 
-.fz-32{
+.fz-32 {
     font-size: 32px;
 }
 
-.fz-40{
+.fz-40 {
     font-size: 40px;
 }
 
@@ -104,7 +104,7 @@ body {
     width: 41%;
 }
 
-@media(max-width: 767px) {
+@media (max-width: 767px) {
     .menu {
         width: 23%;
     }
@@ -114,7 +114,7 @@ body {
     display: none;
 }
 
-@media(max-width: 767px) {
+@media (max-width: 767px) {
     .cart {
         position: relative;
     }
@@ -152,12 +152,36 @@ body {
     padding: 295px 0;
 }
 
-.banner-txt{
+@media (max-width: 767px) {
+    .banner {
+        padding-top: 101px;
+        padding-bottom: 135px;
+    }
+}
+
+.banner-txt {
     width: 40%;
     margin-left: auto;
 }
+
+@media (max-width: 767px) {
+    .banner-txt {
+        width: 100%;
+    }
+}
+
 .banner-txt h2 {
     font-weight: 700;
+}
+
+@media (max-width: 767px) {
+    .banner-txt h2 {
+        font-size: 32px;
+    }
+
+    .banner-txt p {
+        font-size: 20px;
+    }
 }
 
 .banner-txt a{
@@ -169,6 +193,13 @@ body {
     border: 2px solid #ffffff;
     border-radius: 30px;
     padding: 8px 0;
+}
+
+@media (max-width: 767px) {
+    .banner-txt a {
+        width: 100%;
+        padding: 10px 0;
+    }
 }
 
 .banner-txt a:hover{
@@ -233,7 +264,7 @@ body {
     width: 31%;
 }
 
-@media(max-width: 767px) {
+@media (max-width: 767px) {
     .footer-left {
         width: 100%;
     }
