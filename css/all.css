@@ -249,15 +249,32 @@ body {
     padding: 60px 0;
 }
 
+@media (max-width: 767px) {
+    .content {
+        padding: 40px 0;
+    }
+}
+
 .content-txt {
     width: 50%;
     padding-left: 110px;
     padding-right: 110px;
 }
 
-
-.content-item li div:last-child{
+.content-item li div:first-child{
     width: 50%;
+}
+
+@media (max-width: 767px) {
+    .content-txt {
+        width: 100%;
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+    .content-item li div:first-child {
+        width: 100%;
+    }
 }
 
 .h-555 {
@@ -266,6 +283,16 @@ body {
 
 .h-1080 {
     height: 1080px;
+}
+
+@media (max-width: 767px) {
+    .h-350 {
+        height: 350px;
+    }
+
+    .h-680 {
+        height: 680px;
+    }
 }
 
 .content-item .perfume-image-1 {
@@ -282,6 +309,20 @@ body {
 
 .content-item .perfume-image-4 {
     background: url(https://images.unsplash.com/photo-1542038382126-77ae2819338d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHx2aXN1YWwtc2VhcmNofDF8fHxlbnwwfHx8fHw%3D&auto=format&fit=crop&w=800&q=60) center/cover;
+}
+
+@media (max-width: 767px) {
+    .mb-2{
+        margin-bottom: 8px;
+    }
+
+    .mb-8{
+        margin-bottom: 32px;
+    }
+
+    .content-item li:last-child .content-txt p {
+        margin-bottom: 20px;
+    }
 }
 
 .content-txt a {
