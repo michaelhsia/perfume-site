@@ -371,10 +371,27 @@ body {
     width: 32%;
 }
 
+@media (max-width: 767px) {
+    .product-wrap li {
+        width: 100%;
+    }
+}
+
 .h-540 {
     height: 540px;
 }
 
+@media (max-width: 767px) {
+    .h-350 {
+        height: 350px;
+    }
+}
+
+@media (max-width: 767px) {
+    .product .product-brand {
+        margin-bottom: 4px;
+    }
+}
 .product-image-1 {
     background: url(../image/poppy.png) center/cover;
 }
@@ -389,12 +406,19 @@ body {
 
 .product-image-bg-3 {
     background: url(../image/apple-cover.png);
-    display: flex;
-    justify-content: center;
-    align-items: center;
 }
 
-.discount {
+@media (max-width: 767px) {
+    .mb-6 {
+        margin-bottom: 24px;
+    }
+
+    .mb-8 {
+        margin-bottom: 32px;
+    }
+}
+
+.discount p {
     display: inline-block;
 }
 
