@@ -1,6 +1,7 @@
 * {
     outline: 1px solid red;
   }
+
 body {
     line-height: 1.5;
 }
@@ -458,7 +459,7 @@ body {
         width: 100%;
     }
 
-    .recycle li:last-child p{
+    .recycle li:last-child p {
         margin-bottom: 8px;;
     }
 }
