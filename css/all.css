@@ -114,7 +114,18 @@ body {
 }
 
 
+/* background */
+
+.bg-br {
+    background: #916000;;
+}
+
+
 /* margin */
+
+.mr-7{
+    margin-right: 28px;
+}
 
 .mb-1{
     margin-bottom: 4px;
@@ -138,6 +149,11 @@ body {
 
 
 /* padding */
+
+.pd-y-14 {
+    padding-top: 14px;
+    padding-bottom: 14px;
+}
 
 .pd-y-15 {
     padding-top: 60px;
@@ -208,7 +224,7 @@ body {
 }
 
 
-/* banner */
+/* index banner */
 
 .banner{
     background: url(https://images.unsplash.com/photo-1588159343745-445ae0b16383?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHx2aXN1YWwtc2VhcmNofDF8fHxlbnwwfHx8fHw%3D&auto=format&fit=crop&w=800&q=60) center/cover;
@@ -270,7 +286,7 @@ body {
 }
 
 
-/* content */
+/* index content */
 
 .content-txt {
     width: 50%;
@@ -366,7 +382,7 @@ body {
 }
 
 
-/* product */
+/* index product */
 
 .product {
     background: #E0E0E0;
@@ -434,7 +450,7 @@ body {
 }
 
 
-/* recycle */
+/* index recycle */
 
 .h-520 {
     height: 520px;
@@ -552,7 +568,15 @@ body {
 }
 
 
+/* procuct nav */
 
+.nav-bar a {
+    text-decoration: none;
+}
+
+.nav-bar a:hover {
+    color: #000000;
+}
 
     
     
@@ -560,4 +584,4 @@ body {
 
 
 
-    
+
