@@ -602,12 +602,20 @@ body {
     }
 }
 
-.product-list li .c-br {
+.dd-none {
+    display: none;
+}
+
+.product-list li span {
     color: #916000;
 }
 
-.dd-none {
-    display: none;
+.product-list li a span:hover {
+    color: #AC8A46;
+}
+
+.product-list li a span:active {
+    color: #000000;
 }
 
 .product-nav li {
